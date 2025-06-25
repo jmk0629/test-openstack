@@ -10,7 +10,8 @@ terraform {
 
 
 provider "openstack" {
-  auth_url    = "http://192.168.33.8:5000/v3"
+  #auth_url    = "http://192.168.33.8:5000/v3"
+  auth_url    = "http://mstsc.3hs.co.kr:50000/v3"
   region      = "RegionOne"
   domain_name = "default"
   tenant_id   = "656472d18ce84b95b16ee41bc6a36aac"
