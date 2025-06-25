@@ -1,3 +1,14 @@
+terraform {
+  required_providers {
+    openstack = {
+      source  = "terraform-provider-openstack/openstack"
+      version = ">= 1.0.0"
+    }
+  }
+}
+
+
+
 provider "openstack" {
   auth_url    = "http://192.168.33.8:5000/v3"
   region      = "RegionOne"
