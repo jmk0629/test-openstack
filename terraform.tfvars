@@ -1,5 +1,5 @@
-instance_name = "terraform-vm-2025-07-14"
+instance_name = "terraform-vm-2025-07-14-new"
 image_id = "8ed84cb4-0533-4efc-a4bc-5bbd3dc2a787"
 flavor_id = "ddbc4ef2-4575-44d7-92fc-c7afc41ed4f9"
-network_name = "test"
+network_name = "mungi-network"
 key_pair = "test"
